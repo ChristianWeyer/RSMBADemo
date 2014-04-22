@@ -1,4 +1,4 @@
-namespace RS.WebHost
+namespace RS.Services.DTOs
 {
     public class TrackDetailsDto
     {

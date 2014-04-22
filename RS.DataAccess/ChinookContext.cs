@@ -26,7 +26,6 @@ namespace RS.DataAccess
         public virtual DbSet<InvoiceLine> InvoiceLines { get; set; }
         public virtual DbSet<MediaType> MediaTypes { get; set; }
         public virtual DbSet<Playlist> Playlists { get; set; }
-        public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Track> Tracks { get; set; }
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)

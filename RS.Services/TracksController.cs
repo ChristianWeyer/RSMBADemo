@@ -1,13 +1,11 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Web;
 using System.Web.Http;
 using RS.DataAccess;
 using RS.Services.DTOs;
 
-namespace RS.WebHost
+namespace RS.Services
 {
     public class TracksController : ApiController
     {
