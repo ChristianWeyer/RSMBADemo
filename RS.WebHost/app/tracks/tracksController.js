@@ -1,12 +1,12 @@
-﻿rs.tracksApp.controller("tracksController", function ($scope, $http) {
+﻿rs.tracksApp.controller("tracksController", function ($scope, $location, tracksService) {
 
-    $http.get("../api/tracks/list").then(function(result) {
+    tracksService.getTracksList().then(function(result) {
         $scope.tracks = result.data;
     }, function(error) {
         
     });
 
     $scope.selectTrack = function(track) {
-        alert(track.Id);
+        $location.path("/details/" + track.Id);
     };
 });

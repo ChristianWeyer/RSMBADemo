@@ -89,6 +89,13 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\about\about.html" />
+    <Content Include="app\lib\js\angular-route.js" />
+    <Content Include="app\lib\js\fastclick.js" />
+    <Content Include="app\tracks\trackDetails.html" />
+    <Content Include="app\tracks\trackDetailsController.js" />
+    <Content Include="app\tracks\tracksList.html" />
+    <Content Include="app\tracks\tracksService.js" />
     <Content Include="packages.config" />
     <Content Include="app\lib\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="app\lib\font-awesome\fonts\fontawesome-webfont.ttf" />

@@ -1,0 +1,38 @@
+﻿<div class="container">
+    <form class="form-horizontal" role="form">
+        <div class="form-group">
+            <label for="inputId" class="col-sm-2 control-label">ID</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputId" placeholder="ID" value="{{track.Id}}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputName" class="col-sm-2 control-label">Name</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputName" placeholder="Name" value="{{track.Name}}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputComposer" class="col-sm-2 control-label">Composer</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputComposer" placeholder="Composer" value="{{track.Composer}}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <label for="inputDuration" class="col-sm-2 control-label">Duration</label>
+            <div class="col-sm-10">
+                <input type="text" class="form-control" id="inputDuration" placeholder="Duration" value="{{track.Duration}}">
+            </div>
+        </div>
+
+        <div class="form-group">
+            <div class="col-sm-offset-2 col-sm-10">
+                <button type="submit" class="btn btn-default" ng-click="navigateBack()">Back</button>
+                <button type="submit" class="btn btn-success" disabled>Save</button>
+            </div>
+        </div>
+    </form>
+</div>
